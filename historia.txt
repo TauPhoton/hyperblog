@@ -1,0 +1,7 @@
+primer documento ejemplo para Git
+
+git instalado en pc
+
+visual studio code ya instalado previamente
+
+nueva carpeta en onedrive/platzi/ llamada git_github
