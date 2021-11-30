@@ -8,3 +8,6 @@ nueva carpeta en onedrive/platzi/ llamada git_github
 
 archivo "historia.txt" creado dentro de la carpeta git_github
 primer commit creado el 29 de Noviembre 2021
+
+se hicieron algunos cambios en las primeras lineas para poner mayùsculas y se agregaron lineas
+este parrafo es otra adicion para mostrar una tercera version
