@@ -1,15 +1,9 @@
 primer documento ejemplo para Git
 
-Git instalado en PC - user name = TauPhoton, Mail = the-forgotten_one@hotmaol.com
+git instalado en pc
 
-VS Code ya instalado previamente
-
+visual studio code ya instalado previamente
 nueva carpeta en onedrive/platzi/ llamada git_github
 
-archivo "historia.txt" creado dentro de la carpeta git_github
-primer commit creado el 29 de Noviembre 2021
-
-se hicieron algunos cambios en las primeras lineas para poner mayùsculas y se agregaron lineas
-este parrafo es otra adicion para mostrar una nueva version que puede ser infinita
-
-este documento no sigue la historia que Freddy utiliza para ejemplos en el curso
+despues de usar el comando git checkout id_log file.ext, hemos reemplazado por completo el contenido
+de este documento a partir de la linea anterior
