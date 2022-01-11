@@ -11,3 +11,5 @@ primer commit creado el 29 de Noviembre 2021
 
 se hicieron algunos cambios en las primeras lineas para poner mayùsculas y se agregaron lineas
 este parrafo es otra adicion para mostrar una nueva version que puede ser infinita
+
+este documento no sigue la historia que Freddy utiliza para ejemplos en el curso
