@@ -1,16 +1,22 @@
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
-           's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+#Sustitution method coder/decoder script
+#Tau Photon Jan 17th 2022
 
-permanency = True
+import string
 
-while permanency:
-    print ("""encrypt[e]
-              decrypt[d]
+def run():
+    permanency = True
+
+    while permanency:
+        print ("""encrypt[e]
+                  decrypt[d]
               
-              """)
-    menu_option = input('enter an option:_ ').lower()
-    if menu_option == 'e':
-        pass
-    elif menu_option == 'd':
-        pass
-    permanency = False
+                  """)
+        menu_option = input('enter an option:_ ').lower()
+        if menu_option == 'e':
+            pass
+        elif menu_option == 'd':
+            pass
+        permanency = False
+
+if __name__ == '__main__':
+    run()
