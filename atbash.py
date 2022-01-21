@@ -5,29 +5,19 @@ import string
 
 def encrypt(f_letters, b_letters):
 
-    coded = []
-    message = input('input message to encrypt:_ ').split(' ')
-    message = list("".join(message))
-
-    for letter in message:
-        i = f_letters.index(letter)
-        coded.append(b_letters[i])
-    
-    #optimize if possible
-    coded = "".join(coded)
-    print (coded)
+    message = list(input('input message to encrypt:_ '))
+    if ' ' in message:
+        message.remove(' ')
+    coded = [b_letters[f_letters.index(letter)] for letter in message]
+    print("".join(coded))
 
 def decrypt(f_letters, b_letters):
 
-    decoded = []
     message = list(input('input message to decrypt:_ '))
-    for letter in message:
-        i = b_letters.index(letter)
-        decoded.append(f_letters[i])
-    
-    #optimize if possible
-    decoded = "".join(decoded)
-    print (decoded)
+    if ' ' in message:
+        message.remove(' ')
+    decoded = [f_letters[b_letters.index(letter)] for letter in message]
+    print ("".join(decoded))
 
 def run():
 
