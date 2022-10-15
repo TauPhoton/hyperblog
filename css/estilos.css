@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
 body
 {
     background: #1e1f24;
@@ -57,4 +61,11 @@ body
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+
+.persons{
+    display:inline-block;
+    background-color: #DDD;
+    width: 48%;
+    padding: 0.5rem;
 }
